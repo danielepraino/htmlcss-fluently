@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #999;
+  font-family: 'Raleway', sans-serif;
+}
+
+li { list-style-type: none; }
+
+header, section, footer {
+  padding: 70px 0;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.center-vert {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center-left { left: 0; }
+.center-right { right: 0; }
+
+.m-top-20 { margin-top: 20px; }
+.m-bottom-20 { margin-bottom: 20px; }
+.m-bottom-50 { margin-bottom: 50px; }
+.m-topbottom-20 { margin: 20px 0; }
+.m-topbottom-50 { margin: 50px 0; }
+.m-leftright-50 {margin: 0 50px; }
+.p-leftright-100 {padding: 0 100px; }
+.m-right-10 { margin-right: 10px; }
+
+.w-50 { width: 50%; }
+
+.col-3 {
+  width: 33.3%;
+  float: left;
+  padding: 10px;
+  position: relative;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+}
+
+.col-2-float-right {
+  width: 50%;
+  float: right;
+}
+
+.col-1 {
+  width: 100%;
+  float: left;
+}
+
+.img-small {
+  width: 10%;
+  height: 50px;
+  margin-left: auto;
+}
+
+.img-medium { height: 150px; }
+.img-big { height: 350px; }
+
+.hr-small {
+  width: 20%;
+  border: 1.2px solid #999;
+  margin: 20px auto;
+}
+
+.hr-big {
+  width: 98%;
+  border: 1px solid #EFEFEF;
+  margin: 50px auto;
+}
+
+.hr-thick-light-blue { border: 2px solid #47bbd1; }
+.hr-thick-orange { border: 2px solid #ffb600; }
+.hr-thick-green { border: 2px solid #09c61c; }
+
+
+/**MENU**/
+
+.menu li {
+  display: inline-block;
+}
+
+/**EXPLAINER**/
+
+/**CHOOSE-USERS**/
+.user-select {
+  border: none;
+  border-bottom: 2px solid #999;
+  background-color: #EFEFEF;
+}
+
+/**LESSONS**/
+
+.lessons img {
+  height: 100%;
+}
+
+/**DEVICES**/
+
+
+/**FAQS**/
+
+/**FOOTER**/
+
+footer > .container > .col-2 > ul > li {
+  padding-bottom: 10px;
+}
+
+/**COLORS, BUTTONS AND BACKGROUNDS**/
+
+.text-white { color: #FFF; }
+.text-dark-grey { color: #333; }
+.text-light-grey { color: #72879f; }
+.text-green, a.link-green { color: #09c61c; }
+.text-orange, a.link-orange { color: #ffb600; }
+
+a.link-light-blue { color: #47bbd1; }
+
+a.link-grey {
+  color: #72879f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.btn-dark-blue {
+  color: #FFF;
+  text-decoration: none;
+  background-color: #002663;
+  border: 1px solid #003fa5;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+a.btn-green {
+  color: #FFF;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #09c61c;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.bg-light-grey { background-color: #EFEFEF; }
+.bg-dark-blue { background-color: #002663; }
+.bg-blue { background-color: #003fa5; }
