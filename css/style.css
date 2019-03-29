@@ -13,8 +13,13 @@ body {
 
 li { list-style-type: none; }
 
-header, section, footer {
-  padding: 70px 0;
+li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+section, footer {
+  padding: 2% 0;
 }
 
 img {
@@ -47,14 +52,11 @@ img {
 .center-left { left: 0; }
 .center-right { right: 0; }
 
-.m-top-20 { margin-top: 20px; }
 .m-bottom-20 { margin-bottom: 20px; }
 .m-bottom-50 { margin-bottom: 50px; }
 .m-topbottom-20 { margin: 20px 0; }
 .m-topbottom-50 { margin: 50px 0; }
-.m-leftright-50 {margin: 0 50px; }
 .p-leftright-100 {padding: 0 100px; }
-.m-right-10 { margin-right: 10px; }
 
 .w-50 { width: 50%; }
 
@@ -81,7 +83,7 @@ img {
 }
 
 .img-small {
-  width: 10%;
+  width: 20%;
   height: 50px;
   margin-left: auto;
 }
@@ -91,7 +93,7 @@ img {
 
 .hr-small {
   width: 20%;
-  border: 1.2px solid #999;
+  border: 1px solid #999;
   margin: 20px auto;
 }
 
@@ -105,32 +107,78 @@ img {
 .hr-thick-orange { border: 2px solid #ffb600; }
 .hr-thick-green { border: 2px solid #09c61c; }
 
-
 /**MENU**/
 
+.menu { line-height: 50px; }
+
 .menu li {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
   display: inline-block;
+  padding-right: 10px;
 }
 
-/**EXPLAINER**/
+.img-logo {
+  width: 100px;
+  margin: 5px 50px 0 0;
+  float: left;
+}
 
-/**CHOOSE-USERS**/
+.menu > .container > .col-2-float-right > ul {
+  float: right;
+}
+
+/**MAIN CLAIMER**/
+
+.main-claim {
+  background-image: url("https://www.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 100% -25%;
+  padding: 6% 0;
+}
+
+.main-claim .col-1 { width: 40%; }
+.main-claim h1 { font-size: 40px; }
+.main-claim a.btn-green { padding: 15px 20px; }
+
+/**CHOOSE USER**/
+
+.choose-user h2 { margin-right: 50px; }
+
+.choose-user h2, .choose-user form, .choose-user a {
+  float: left;
+  margin-left: 20px;
+}
+
 .user-select {
+  color: #666;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
   border: none;
-  border-bottom: 2px solid #999;
+  border-bottom: 2px solid #CCC;
   background-color: #EFEFEF;
 }
 
 /**LESSONS**/
 
-.lessons img {
-  height: 100%;
+.lessons { padding: 0; }
+.lessons img { height: 100%; }
+
+/**ENGLISH ENTERPRISE**/
+
+.english-enterprise {
+  background-image: url("https://www.fluentify.com/bundles/fluentifypublic/images/r4b/01/talking.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  padding: 8% 0;
 }
 
-/**DEVICES**/
+/**CHOOSE PLANS**/
 
-
-/**FAQS**/
+.choose-plans { padding: 5% 0; }
 
 /**FOOTER**/
 
@@ -144,13 +192,12 @@ footer > .container > .col-2 > ul > li {
 .text-dark-grey { color: #333; }
 .text-light-grey { color: #72879f; }
 .text-green, a.link-green { color: #09c61c; }
-.text-orange, a.link-orange { color: #ffb600; }
+.text-orange, a.link-orange, .menu > .container > .col-2 > ul > li > a:hover { color: #ffb600; }
 
 a.link-light-blue { color: #47bbd1; }
 
 a.link-grey {
   color: #72879f;
-  text-decoration: none;
   font-weight: bold;
 }
 
